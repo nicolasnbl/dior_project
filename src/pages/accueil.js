@@ -6,6 +6,7 @@ import FenetreInfoContext from '../FenetreInfoContext';
 
 const Accueil = () => {
 
+  //Partie header
   const [stateMenu, setstateMenu] = useState({
     transformMenu: "transformTranslateX0",
     bgdBlack: "display-none",
@@ -21,6 +22,7 @@ const Accueil = () => {
 
   var classNameFIB = "fenetreInfoBlock "+stateMenu.transformMenu;
   var classNameBBO = "bgdBlackOpacity "+stateMenu.bgdBlack;
+  //Fin Partie header
 
   return (
     <FenetreInfoContext.Provider value={contextValue}>
