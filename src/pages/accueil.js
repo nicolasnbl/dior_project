@@ -11,6 +11,7 @@ const Accueil = () => {
     transformMenu: "transformTranslateX0",
     bgdBlack: "display-none",
   });
+  
   const [menuSelect, setmenuSelect] = useState(1);
 
   const contextValue = {

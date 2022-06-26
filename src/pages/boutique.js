@@ -3,6 +3,9 @@ import Header from '../component/header';
 import FenetreInfo from '../component/navInfoFenetre/fenetreInfo';
 import MarqueBlock from '../component/boutique/marqueBlock';
 import FenetreInfoContext from '../FenetreInfoContext';
+import ListeMarque from '../component/boutique/listeMarque';
+import Produit from '../component/boutique/produit';
+import ListeProduitsVedettes from '../component/boutique/listeProduitsVedettes';
 
 const Boutique = () => {
 
@@ -38,7 +41,15 @@ const Boutique = () => {
         </div>
         <div className={classNameBBO}></div>
         <main>
-            <MarqueBlock />
+            <div className="titreMarque">
+                <h1>MARQUE</h1>
+            </div>
+            <ListeMarque />
+            <div className="titreMarque">
+                <h1>PRODUITS VEDETTES</h1>
+            </div>
+            <ListeProduitsVedettes />
+            
         </main>
     </FenetreInfoContext.Provider>
   )
