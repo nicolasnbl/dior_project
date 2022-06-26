@@ -1,0 +1,40 @@
+.listeProduitsVedettes{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.listeProduitsVedettes li{
+    width: 275px;
+    overflow: hidden;
+    border: 3px solid $color-bgdBody;
+    cursor: pointer;
+}
+
+.listeProduitsVedettes li:hover{
+    border: 3px solid $color-yellow;
+}
+
+
+.typeProduitContainer{
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: #999999;
+    margin-bottom: 0.5rem;
+}
+
+.titreProduitContainer{
+    margin-bottom: 0.5rem;
+}
+
+.titreProduitContainer:hover{
+    color: #dddddd;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.prixProduitContainer{
+    color: $color-white;
+}

@@ -1,0 +1,72 @@
+.produit{
+    height: 400px;
+    width: 275px;
+    position: relative;
+}
+
+.imgProduitContainer{
+    width: inherit;
+    height: 260px;
+    display: flex;
+    justify-content: center;
+    background-color: $color-bgdProduit;
+}
+
+.imgProduit{
+    width: inherit;
+    height: 325px;
+    background-size: cover;
+    transform: translateY(-20%);
+}
+
+.imgProduit1{
+    background-image:  url("../../../../public/image/produit/omega/speedmaster/blackGoldSpeedMaster.png");
+}
+
+.imgProduit2{
+    background-image:  url("../../../../public/image/produit/omega/speedmaster/GoldSpeedMaster.png");
+}
+
+.imgProduit3{
+    background-image:  url("../../../../public/image/produit/omega/speedmaster/GoldGoldSpeedMaster.png");
+}
+
+.imgProduit4{
+    background-image:  url("../../../../public/image/produit/omega/speedmaster/BlackSteelSpeedMaster.png");
+}
+
+.imgProduit5{
+    background-image:  url("../../../../public/image/produit/omega/speedmaster/GreenGoldConstellation.png");
+}
+
+.imgProduit6{
+    background-image:  url("../../../../public/image/produit/omega/speedmaster/BlackSteelProfessionalSpeedMaster.png");
+}
+
+.imgProduitZoom{
+    transform: translateY(-10%);
+    width: 200px;
+    height: 290px;
+}
+
+.infoProuitContainer{
+    position: absolute;
+    top: 270px;
+    text-align: left;
+    padding: 0.2rem;
+}
+
+.prixProduitContainer{
+    overflow: hidden;
+    height: 20px;
+}
+.prixProduit{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.05rem;
+    transition: all 0.3s;
+}
+
+.prixProduitPanier{
+    transform: translateY(-50%);
+}

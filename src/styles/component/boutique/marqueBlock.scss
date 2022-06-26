@@ -1,0 +1,81 @@
+.marqueBlock{
+    width: 350px;
+    height: 200px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    vertical-align: middle;
+    margin: 5px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 10px;
+}
+
+.bgd_rolex{
+    background-image:  url("../../../../public/image/bgd_rolex.jpg");
+    background-size: cover;
+}
+
+.bgd_rolexHide{
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../../../../public/image/bgd_rolex.jpg");
+    background-size: cover;
+
+    transform: scale(1.05);
+    transition: transform 0.5s;
+    fill: #9b7a33;
+}
+
+.bgd_hublot{
+    background-image:  url("../../../../public/image/bgd_hublot.jpg");
+    background-size: cover;
+}
+
+.bgd_hublotHide{
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../../../../public/image/bgd_hublot.jpg");
+    background-size: cover;
+
+    transform: scale(1.05);
+    transition: transform 0.5s;
+    fill: #f3f3f3;
+}
+
+.bgd_omega{
+    background-image:  url("../../../../public/image/bgd_omega.jpg");
+    background-size: cover;
+}
+
+.bgd_omegaHide{
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../../../../public/image/bgd_omega.jpg");
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 10px;
+    transform: scale(1.05);
+    transition: transform 0.5s;
+    fill: #c40d2e;
+}
+
+
+.marqueIcon{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    opacity: 100;
+    transition: opacity 0.3s;
+}
+
+.marqueIconHide{
+    opacity: 0;
+}
+
+.marqueIcon svg{
+    width: 100px;
+    height: 100px;
+}
+
+.logoPath{
+    box-shadow: black  5px 5px 0px;
+}
+
+.marqueIcon svg:hover{
+    transform: scale(1.15);
+    transition: all 0.5s;
+}

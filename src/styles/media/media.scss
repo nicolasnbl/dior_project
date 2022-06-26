@@ -91,6 +91,31 @@
         left: 51.75rem;
     }
 
+    .dispatchBlock{
+        flex-direction: column;
+    }
+
+    .linkDispatchContainer1{
+        height: 50%;
+    }
+
+    .linkDispatchContainer1:hover{
+        width: 100%;
+        height: 70%;
+        transition: all 0.5s;
+    }
+    
+    .linkDispatchContainer2{
+        height: 50%;
+    }
+
+    .linkDispatchContainer2:hover{
+        width: 100%;
+        height: 70%;
+        transition: all 0.5s;
+    }
+    
+
  }
 
 

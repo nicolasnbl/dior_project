@@ -1,5 +1,10 @@
 
-
+$color-gold: #9b7a33;
+$color-bgdBody: #454545;
+$color-grey: #999999;
+$color-yellow: #F9DB6D;
+$color-white: #F4EDED;
+$color-bgdProduit: antiquewhite;
 
 @mixin verticalCenter{
     display: flex;
@@ -19,7 +24,14 @@ html{
 
 body{
     width: 100vw;
-    overflow: hidden;
+    overflow-x: hidden;
+    background-color: #454545;
+    color: $color-white;
+}
+
+a{
+    text-decoration: none;
+    color: $color-white;
 }
 
 h1{
